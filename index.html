@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google Analytics Tag -->
+    <!-- Google Analytics: place immediately after <head> -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-G5TE7BD8HM"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -125,9 +125,18 @@
     <p>📊 Actuarial Science Graduate | Data Analytics & Business Reporting | Aspiring Actuary</p>
 
     <nav>
-        <a href="https://www.linkedin.com/in/kiana-philpott" target="_blank">LinkedIn</a>
-        <a href="https://github.com/Kvphilpott" target="_blank">GitHub</a>
-        <a href="ASNAresume.pdf" target="_blank">Resume</a>
+        <a href="https://www.linkedin.com/in/kiana-philpott" target="_blank"
+           onclick="gtag('event', 'click', { 'event_category': 'Outbound Link', 'event_label': 'LinkedIn' });">
+            LinkedIn
+        </a>
+        <a href="https://github.com/Kvphilpott" target="_blank"
+           onclick="gtag('event', 'click', { 'event_category': 'Outbound Link', 'event_label': 'GitHub' });">
+            GitHub
+        </a>
+        <a href="ASNAresume.pdf" target="_blank"
+           onclick="gtag('event', 'click', { 'event_category': 'Outbound Link', 'event_label': 'Resume' });">
+            Resume
+        </a>
     </nav>
 </header>
 
@@ -136,10 +145,8 @@
 
     <ul>
         <li>🎓 2025 Actuarial Science Graduate</li>
-        <li>📚 Exam FM scheduled for April 2026</li>
         <li>📍 Attending ASNA Conference 2026</li>
         <li>📊 Focused on actuarial analysis, risk modeling, and data analytics</li>
-        <li>🔎 Currently seeking full-time actuarial opportunities</li>
     </ul>
 
     <h3>Skills</h3>
@@ -155,11 +162,17 @@
     <ul>
         <li>
             Polio, Infant Deaths, and Life Expectancy Analysis –
-            <a href="https://kvphilpott.github.io/Polio-Life-Expectancy-Analysis" target="_blank">View Project</a>
+            <a href="https://kvphilpott.github.io/Polio-Life-Expectancy-Analysis" target="_blank"
+               onclick="gtag('event', 'click', { 'event_category': 'Project', 'event_label': 'Polio Analysis' });">
+                View Project
+            </a>
         </li>
         <li>
             Smokers Age Demographics Analysis –
-            <a href="https://kvphilpott.github.io/Age-and-Smoking-Analysis" target="_blank">View Project</a>
+            <a href="https://kvphilpott.github.io/Age-and-Smoking-Analysis" target="_blank"
+               onclick="gtag('event', 'click', { 'event_category': 'Project', 'event_label': 'Smokers Analysis' });">
+                View Project
+            </a>
         </li>
     </ul>
 </section>
@@ -172,7 +185,8 @@
     <p>
         👉
         <a href="https://docs.google.com/gview?url=https://raw.githubusercontent.com/Kvphilpott/T-Copulas_Credibility_Theory.pdf/main/Final%20Credibility%20Project.pdf&embedded=true"
-           target="_blank">
+           target="_blank"
+           onclick="gtag('event', 'click', { 'event_category': 'Project', 'event_label': 'T-Copulas PDF' });">
             View PDF in Browser
         </a>
     </p>
